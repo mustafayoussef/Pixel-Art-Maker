@@ -1,0 +1,112 @@
+/*
+    =================
+        Public Style
+    =================
+*/
+*  , *:after , *:before{
+    margin:0;
+    padding: 0;
+}
+body{
+    /* font-family: lucida sans ;x   */
+    background-color: #ececec
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+.textCenter{
+    text-align: center;
+}
+/*
+    =================
+        title Style
+    =================
+*/
+.title{
+    padding: 30px 0 ;
+    font-size: 2rem;
+    text-shadow: 3px 3px #c4c4c498;
+}
+/*
+    =================
+        choose Style
+    =================
+*/
+.choose-grid{
+    background-color: white;
+    padding: 20px 0 ;
+    width: 20%;
+    margin: 0 40px auto;
+    float: right;
+    box-shadow: 0 0 10px rgb(104, 100, 100);
+    border-radius: 20px;
+}
+.choose-title{
+    padding: 15px 0;
+    font-size: 25px;
+    text-shadow: 2px 2px #c4c4c498;
+}
+.height, .width ,.submit {
+    display: block;
+    margin: 10px 0 ;
+}
+.submit{
+    padding: 10px 0 ; 
+}
+.submit-button{
+    padding: 10px 20px ;
+}
+.select-title h4 {
+    padding-bottom: 15px;
+    font-size: 22px;
+    text-shadow: 2px 2px #c4c4c498;
+}
+.select-color{
+    border: none;
+    padding: 0;
+    border-radius: 10px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.select-color::-webkit-color-swatch {
+    border: none;
+    border-radius: 10px;
+    padding: 0;
+}
+.select-color::-webkit-color-swatch-wrapper {
+    border: none;
+    border-radius: 10px;
+    padding: 0;
+}
+/*
+    =================
+        canvas Style
+    =================
+*/
+.canvas{
+    background-color: white;
+    padding: 20px 0 ;
+    width: 70%;
+    height: auto;
+    margin: 0 40px auto;
+    box-shadow: 0 0 10px rgb(104, 100, 100);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table , tr , td{
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+    margin: auto;
+}
+tr{
+    height: 20px;
+}
+td{
+    width: 20px;
+}
